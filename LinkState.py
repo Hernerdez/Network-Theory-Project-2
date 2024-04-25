@@ -38,6 +38,6 @@ def dijkstra(graph, start):
 
 filename = input("Please enter the path to the network file: ")
 graph = read_graph(filename)
-start_node = '0'  # Modify this as needed
+start_node = '0'
 shortest_paths = dijkstra(graph, start_node)
 print("Shortest paths from node", start_node, ":", shortest_paths)
